@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo One');
+
+table#plansza {
+	border-width: 0.3em;
+	border-style: solid;
+	border-color: lightgray;
+	background-color: gray;
+	font-size: 2em;
+	padding: 0.1em;
+}
+
+table#plansza td {
+	background-color: silver;
+	width: 1.5em;
+	height: 1.5em;
+	box-sizing: border-box;
+	text-align: center;
+	font-family: 'Russo One', Helvetica, Arial, sans-serif;
+}
+
+table#plansza td.zakryte, table#plansza td.flaga, table#plansza td.wybuch {
+	border-width: 0.2em;
+	border-style: outset;
+	border-color: lightgray;
+}
+
+td.n1 {
+	color: blue;
+}
+
+td.n2 {
+	color: green;
+}
+
+td.n3 {
+	color: red;
+}
+
+td.n4 {
+	color: purple;
+}
+
+td.n5 {
+	color: maroon;
+}
+
+td.n6 {
+	color: cadetblue;
+}
+
+td.n7 {
+	color: black;
+}
+
+td.n8 {
+	color: gray;
+}
+
+td.flaga {
+	color: darkgreen;
+}
+
+td.mina {
+	color: black;
+}
+
+td.wybuch {
+	color: orangered;
+}
+
+td.mina svg, td.flaga svg, td.wybuch svg {
+	float: left;
+	width: 100%;
+}
