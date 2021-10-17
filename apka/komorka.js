@@ -49,5 +49,5 @@ function generujPola(wiersze, kolumny) {
 }
 
 function zdarzenie(e, x, y) {
-	window.alert(x+' '+y)
+	window.alert(sprawdzPole(x, y))
 }
