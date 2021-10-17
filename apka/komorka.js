@@ -21,15 +21,18 @@ function odkryjPole(x, y, co) {
 			case 'wybuch':
 				pole.classList = 'wybuch'
 				pole.innerHTML = dajSpan('mina')
-				break;
+				break
 			case 'mina':
 				pole.classList = 'mina'
 				pole.innerHTML = dajSpan('mina')
-				break;
+				break
 			case 'flaga':
 				pole.classList = 'flaga'
 				pole.innerHTML = dajSpan('flaga')
-				break;
+				break
+			case 'puste':
+				pole.classList = []
+				break
 		}
 	}
 }
@@ -46,8 +49,4 @@ function generujPola(wiersze, kolumny) {
 			wiersz.appendChild(komorka)
 		}
 	}
-}
-
-function zdarzenie(e, x, y) {
-	window.alert(sprawdzPole(x, y))
 }
