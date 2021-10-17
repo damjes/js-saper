@@ -39,7 +39,7 @@ function generujPola(wiersze, kolumny) {
 	for(let y=0; y<wiersze; y++) {
 		let wiersz = document.createElement('tr')
 		plansza.appendChild(wiersz)
-		for(let x=0; x<wiersze; x++) {
+		for(let x=0; x<kolumny; x++) {
 			let komorka = document.createElement('td')
 			komorka.classList = 'zakryte'
 			komorka.onmouseup = (e) => zdarzenie(e, x, y)
