@@ -31,7 +31,7 @@ function sprawdzPole(x, y) {
 			delta.forEach((dy) => {
 				let nowey = y+dy
 				if(nowey >= 0 && nowey < liczbaWierszy) {
-					pole = tablica[nowey][nowex]
+					let pole = tablica[nowey][nowex]
 					if(pole == 'mina' || pole == 'minaflaga') {
 						miny++
 					}
