@@ -15,6 +15,7 @@ function rozpocznijGre() {
 }
 
 function sprawdzWygranko() {
+	// TODO: WTF, poprawić
 	if(liczbaMin === 0) {
 		stan = 'wygranko'
 	}
