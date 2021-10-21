@@ -4,8 +4,8 @@ var liczbaWierszy
 var liczbaMin
 
 function rozpocznijGre() {
-	wiersze = 30
-	kolumny = 50
+	wiersze = 15
+	kolumny = 20
 	miny = 10
 	generujPlansze(wiersze, kolumny, miny)
 	stan = 'gra'

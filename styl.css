@@ -7,6 +7,7 @@ table#plansza {
 	background-color: gray;
 	font-size: 1.5em;
 	padding: 0.1em;
+	user-select: none;
 }
 
 table#plansza td {
